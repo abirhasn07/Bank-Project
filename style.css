@@ -1,0 +1,58 @@
+body {
+    padding: 100px;
+}
+
+.sumbit {
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.btn-1 {
+    border-radius: 5px;
+    width: 80px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-2 {
+    border-radius: 5px;
+    width: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 10px;
+}
+
+#transition-area {
+    display: none;
+}
+
+.diposite {
+    background-color: slateblue;
+}
+
+.widthdrow {
+    background-color: lightsalmon;
+}
+
+.balance {
+    background-color: tomato;
+}
+
+.status {
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 20px;
+    color: whitesmoke;
+    margin: 0px 5px;
+}

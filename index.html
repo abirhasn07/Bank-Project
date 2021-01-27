@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh Bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login-area">
+        <h1 class="text-center">Welcome To Bangladesh Bank</h1>
+        <div class="sumbit">
+            <h3>Login</h3>
+            <input class="form-control" type="text" placeholder="Enter Your Email">
+            <br>
+            <input class="form-control" type="password" name="" id="" placeholder="Enter Your Password">
+            <br>
+            <button id="login-btn" class="btn-success btn-1">Enter</button>
+        </div>
+    </div>
+
+    <div id="transition-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="diposite status">
+                    <h5>Deposit</h5>
+                    <h2>0$</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widthdrow status">
+                    <h5>Widthdraw</h5>
+                    <h2>0$</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>1250$</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="sumbit">
+
+                    <h4>Widthdraw</h4>
+                    <input type="text" placeholder="widthdraw" class='form-control'>
+                    <button class="btn-success btn-2">Widthdraw</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="sumbit">
+
+                    <h4>Deposit</h4>
+                    <input type="text" placeholder="deposit" class='form-control'>
+                    <button class="btn-success btn-2" id="deposit-id" id="deposit-amount">Deposit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const loginBtn = document.getElementById('login-btn');
+        loginBtn.addEventListener('click', function() {
+                const loginArea = document.getElementById('login-area')
+                loginArea.style.display = 'none'
+                const transitonSection = document.getElementById('transition-area');
+                transitonSection.style.display = 'block';
+
+            })
+            // deposit btn
+        const depositBtn = document.getElementById('deposit-id');
+        depositBtn.addEventListener('click', function() {
+
+            const depositAmount = document.getElementById('deposit-amount').value;
+
+            const depositAmount = document.getInputNumber
+
+        })
+    </script>
+
+
+</body>
+
+</html>
